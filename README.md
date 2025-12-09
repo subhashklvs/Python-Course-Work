@@ -1,16 +1,1 @@
-Hi! I am currently learning Python programming.
-In this repository, I will be uploading my practice codes, mini projects, and notes as I learn new concepts like:
 
-Variables & Data Types
-
-Strings & Lists
-
-Loops (for, while)
-
-Functions
-
-File Handling
-
-OOP in Python
-
-Modules & Packages
