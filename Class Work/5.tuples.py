@@ -20,3 +20,6 @@ print(20 in t)        # membership - checks if an item exists in the tuple
 print(t1[2])           # indexing - accesses an item at a specific index
 print(t1[1:5])         # slicing - accesses a range of items in the tuple
 print(sorted(t1))      # sorted() - returns a sorted list of the tuple's items
+
+
+
