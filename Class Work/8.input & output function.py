@@ -1,4 +1,5 @@
 # input functions : enter values on screen or if user wants to enter input on screen then we use input functions.
+
 # syntax : input("string")
 
 a = input("Enter your name: ")
@@ -38,3 +39,8 @@ prices=tuple(map(float,input("Enter prices: ").split(',')))
 print(prices)
 
 
+# output function : to display output on screen we use print function.
+# syntax : print(value1, value2, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+print("Hello", "World", sep="-", end="!!!\n")
+print("Welcome to Python programming.")
+# sep : specifies the separator between multiple values (default is space)
