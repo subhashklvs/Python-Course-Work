@@ -32,7 +32,7 @@ else:
     
 # or 
 
-age = int(input("enter your age:"))
+age = 20
 if age >=18:
     print("Eligible to vote")
 else:
