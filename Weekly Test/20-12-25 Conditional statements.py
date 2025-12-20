@@ -1,4 +1,5 @@
 # Even or odd checker(if - else statement)
+
 num=int(input("enter a number:"))
 if num%2==0:
     print("even number")
@@ -6,6 +7,7 @@ else:
     print("odd numbers")
     
 # Positive,Negative or zero(if-else -else)
+
 num=int(input("enter a number:"))
 if num>0:
     print("positive number")
@@ -13,13 +15,17 @@ elif num<0:
     print("Negative number")
 else:
     print("zero")
+    
 
 # voting eligibility(simple if)
+
 age=int(input("enter your age:"))
 if age>=18:
     print("eligible to vote")
     
+    
 # largest of two numbers (if-else)
+
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
@@ -38,7 +44,9 @@ else:
     print(b)    
     
     
+    
 # largest of three numbers(nested if)
+
 n1=int(input("enter first number:"))
 n2=int(input("enter second number:"))
 n3=int(input("enter third number:"))
@@ -54,6 +62,7 @@ else:
         print(n3,"is the largest number")
 
     # or 
+
 
 n1=int(input("enter first number:"))
 n2=int(input("enter second number:"))
@@ -76,7 +85,10 @@ elif n2>n1 and n2>n3:
 else:
     print(n3)
     
+
+
 # grade calculator(if-elif-else)
+
 n=int(input("enter your marks:"))
 if n>=90 
     print("a grade")
@@ -89,6 +101,7 @@ else:
     
     
 # login validation(nested if)
+
 username=input("enter username:")
 password=input("enter password:")
 if username=="admin":
@@ -99,7 +112,9 @@ if username=="admin":
 else:
     print("invalid username")
     
+
 # number range checker(if-elif-else)
+
 num=int(input("enter a number:"))
 if num<0:
     print("negative number")
@@ -108,7 +123,9 @@ elif num<=100:
 else:
     print("number is out of range")
     
+
 # simple calculator(if-elif-else)
+
 n1=int(input("enter first number:"))
 n2=int(input("enter second number:"))
 operator=input("enter operator(+,-,*,/):")
@@ -124,6 +141,7 @@ else:
     print("invalid operator")
     
 # pass or fail checker(if-else)
+
 n=int(input("enter your marks:"))
 if n>=40:
     print("pass")
