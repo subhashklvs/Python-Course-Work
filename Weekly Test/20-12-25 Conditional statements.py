@@ -90,7 +90,7 @@ else:
 # grade calculator(if-elif-else)
 
 n=int(input("enter your marks:"))
-if n>=90 :
+if n>=90:
     print("a grade")
 elif n>=80 and n<90:
     print("b grade")
