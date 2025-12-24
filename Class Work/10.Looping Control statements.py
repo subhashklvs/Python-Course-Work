@@ -43,6 +43,14 @@ for i in range(10):
     if i == 5:
         break  # Exit the loop when i is 5
     print(i)
+    
+ # or # 
+ 
+list=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in list:
+    if i > 6:
+        break  # Exit the loop when num is greater than 6
+    print(i)
 
 # 4. Continue Statement : The 'continue' statement is used to skip the current iteration of a loop and move to the next iteration.
 
@@ -51,9 +59,25 @@ for i in range(10):
         continue  # Skip even numbers
     print(i)  # This will print only odd numbers
 
+# or # 
+
+list=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in list:
+    if i % 2 == 0:
+        continue  # Skip even numbers
+    print(i)  # This will print only odd numbers    
+    
 # 5.pass Statement : The 'pass' statement is a placeholder that does nothing. It is used when a statement is syntactically required but no action is needed.
 
 for i in range(5):
+    if i == 3:
+        pass  # Placeholder for future code
+    print(i)
+    
+ # or #
+ 
+list=[1, 2, 3, 4, 5]
+for i in list:
     if i == 3:
         pass  # Placeholder for future code
     print(i)
