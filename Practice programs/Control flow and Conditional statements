@@ -1,0 +1,64 @@
+# Check if three lengths form an Equilateral, Isosceles, or Scalene triangle
+a,b,c,= tuple(map(int,input().split()))
+if a==b and b==c:
+    print("Eq")
+elif a!=b and b!=c and a!=c:
+    print("sc")
+else:
+    print("Is")
+    
+# Electricity bill calculator based on units used :
+
+units = int(input())
+bill=0
+if 0<=units<=100:
+    bill=units
+elif 100< units<=200:
+    bill=100+(units-100)*2
+elif units>200:
+    bill=300+(units-200)*3
+print(bill)
+
+# Amstrong number : 
+num =input()
+sum=0
+l=len(num)
+for i in num :
+    sum+=int(i)**l
+if sum==int(num):
+    print("Arm")
+else:
+    print("not Arm")
+    
+    # or #
+num=int(input())
+temp=num
+sum=0
+l=len(str(num))
+while num>0:
+    sum+=(num%10)**l
+    num//=10
+if sum==temp:
+    print("Arm")
+else:
+    print("not Arm")
+    
+# Validate strong password (min 8 chars, 1 uppercase, 1 digit, 1 special char)
+pwd=input()
+if len(pwd)>=8:
+    s=set()
+    for i in pwd:
+        if i.isupper():
+            s.add('u')
+        elif i.islower():
+            s.add('l')
+        elif i.isdigit():
+            s.add('d')
+        else:
+            s.add('s')
+    if len(s)==4:
+        print("strong password")
+    else:
+        print("weak password")
+else:
+    print("weak password,length needs to be >=8")
