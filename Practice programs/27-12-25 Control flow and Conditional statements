@@ -76,3 +76,11 @@ elif age >60:
 else:
     fees=100
 print(fees)
+
+# 24-hour to 12-hour time converter:
+
+hrs,mins=tuple(map(int,input().split(':')))
+if 0<=hrs<12 and 0<mins<=59:
+    print("f:{hrs}:{mins}Am")
+else:
+    print(f'{hrs-12}:{mins}PM')
