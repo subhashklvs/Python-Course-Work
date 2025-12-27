@@ -62,3 +62,17 @@ if len(pwd)>=8:
         print("weak password")
 else:
     print("weak password,length needs to be >=8")
+    
+# Ticket fare calculator with age-based discounts:
+
+age=int(input())
+fee=0
+if 0<=age<5:
+    pass
+elif 5<=age<18:
+    fees=100-100*(0.5)
+elif age >60:
+    fees=-100- 100*0.3
+else:
+    fees=100
+print(fees)
