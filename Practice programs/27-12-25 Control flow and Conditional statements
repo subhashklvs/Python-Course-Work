@@ -44,6 +44,7 @@ else:
     print("not Arm")
     
 # Validate strong password (min 8 chars, 1 uppercase, 1 digit, 1 special char)
+
 pwd=input()
 if len(pwd)>=8:
     s=set()
@@ -80,7 +81,9 @@ print(fees)
 # 24-hour to 12-hour time converter:
 
 hrs,mins=tuple(map(int,input().split(':')))
-if 0<=hrs<12 and 0<mins<=59:
-    print("f:{hrs}:{mins}Am")
+if 0<=hrs<12 and 0<=mins<=59:
+    print("f:{hrs}:{mins}AM")
+elif hrs==12:
+    print(f"{hrs}:{mins}PM")
 else:
     print(f'{hrs-12}:{mins}PM')
