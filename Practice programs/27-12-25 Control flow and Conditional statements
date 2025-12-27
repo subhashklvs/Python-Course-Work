@@ -88,4 +88,3 @@ elif hrs==12:
 else:
     print(f'{hrs-12}:{mins}PM')
     
-# 
