@@ -78,3 +78,53 @@ for i in range(n):
         else:
             print(" ",end=" ")
     print()
+
+for i in range(1,10,2):
+    for j in range(1,100,5):
+        print(i+j)
+
+# 
+n=int(input("enter the size:"))
+for i in range(n):
+    if i<=n//2:
+        print('* '*(i+1))
+    else:
+        print('* '*(n-i))
+        
+# A 
+
+n=int(input("enter the size:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or col==0 or col=n-1 or row==n//2:
+            print("*",end=' ')
+        else:
+            print(" ",end=' ')
+    print()
+    
+# G 
+            
+n = int(input("enter the size: "))
+for row in range(n):
+    for col in range(n):
+        if (row == 0 or
+            col == 0 or
+            (row == n - 1 and col <= n // 20) or
+            (col == n // 2 and row >= n // 2) or
+            (row == n // 2 and col >= n // 2) or
+            (col == n - 1 and row >= n // 2)):
+            print("*", end=' ')
+        else:
+            print(" ", end=' ')
+    print()
+    
+# 
+n=int(input("enter the number:"))
+sum=0
+for i in range(1,n//2+1):
+    if n%i==0:
+        sum+=i
+if sum==n:
+    print("perfect number")
+else:
+    print("not a perfect number")
