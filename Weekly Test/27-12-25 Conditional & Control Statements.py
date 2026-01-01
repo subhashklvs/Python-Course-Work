@@ -81,21 +81,13 @@ print(f"{product}: {status}")
 
 # Prime Numbers Checker
 
-n = int(input())
-is_prime = True
-
-if n <= 1:
-    is_prime = False
+n=int(input())
+for i in range(2,n//2+1):
+    if n%i==0:
+        print("not prime number")
+    break
 else:
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            is_prime = False
-            break
-
-if is_prime:
-    print("Prime Number")
-else:
-    print("Not a Prime Number")
+    print("not prime number")
 
 # Gym Subscription Billing (Menu Driven Program)
 

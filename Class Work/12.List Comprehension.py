@@ -39,4 +39,3 @@ print(d1)
 
 d1={input("enter the product:"): input("enter the price:") for i in range(1,6)}
 print(d1) 
-
