@@ -2,7 +2,7 @@
 
 for i in range(5):
     for j in range(5):
-        print('*',end='')
+        print('*',end='    ')
     print()
 
 for i in range(4):
@@ -93,14 +93,16 @@ for i in range(n):
         
 # A 
 
-n=int(input("enter the size:"))
+n = int(input("Enter the size: "))
+
 for row in range(n):
     for col in range(n):
-        if row==0 or col==0 or col=n-1 or row==n//2:
-            print("*",end=' ')
+        if row == 0 or col == 0 or col == n-1 or row == n // 2:
+            print("*", end=" ")
         else:
-            print(" ",end=' ')
+            print(" ", end=" ")
     print()
+
     
 # G 
             
