@@ -45,3 +45,17 @@ def display():
     print(f"Inside:{name}")
 display()
 print(f"outside:{name}")
+
+# 
+
+def display(course):
+    print(f"starting:{course}")
+    def change():
+        nonlocal course
+        course="python Full stack"
+        print(f"change:{course}")
+    change()
+    print(f"Final course:{course}")
+course="java Fill stack"
+display(course)
+    
