@@ -1,4 +1,4 @@
-# 1.print numbers from 1 to n in a single line separated by space
+# 1.print numbers from 1 to n in a single line separated by space :
 
 n=int(input("enter a number: "))
 for i in range(1,n+1):
