@@ -85,10 +85,12 @@ print(n,removezeros(l))
 x = [10, 20, 31, 42, 51]
 y = list(map(lambda x: x * 2, x))
 print(y)
+
 # filter()-it creates a list of elements for which a function returns true.
 x = [20,31,10,42,51]
 y = list(filter(lambda x: x % 2!=0,x))
 print(y)
+
 # reduce()-it applies a rolling computation to sequential pairs of values in a list.
 from functools import reduce
 x = [10, 20, 32, 42, 51]
