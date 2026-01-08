@@ -91,6 +91,7 @@ y = list(filter(lambda x: x % 2!=0,x))
 print(y)
 # reduce()-it applies a rolling computation to sequential pairs of values in a list.
 from functools import reduce
-x = [10, 20, 30, 40]
+x = [10, 20, 32, 42, 51]
 y = reduce(lambda x, y: x + y, x)
 print(y)
+

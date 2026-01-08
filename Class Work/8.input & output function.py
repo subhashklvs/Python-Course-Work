@@ -17,10 +17,10 @@ print(age + 5)
 price = float(input("Enter price: "))
 print(price)
 
-# eval(input()) ⚠️ (Not Recommended)------Takes input as a Python expression
+# eval(input())  (Not Recommended)------Takes input as a Python expression
 
 x = eval(input("Enter the input: "))
-print(data, type(data))
+print(x, type(x))
 
 # list of values as input
 prices=list(map(float,input("Enter prices: ").split()))
