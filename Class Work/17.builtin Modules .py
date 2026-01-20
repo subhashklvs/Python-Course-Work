@@ -1,89 +1,89 @@
 # # Using datetime module to get today's date and its components :
 
-# from datetime import date,time
-# today=date.today()
-# print(today)
-# print(today.year)
-# print(today.month)
-# print(today.day)
-# print(today.weekday())
+from datetime import date,time
+today=date.today()
+print(today)
+print(today.year)
+print(today.month)
+print(today.day)
+print(today.weekday())
 
-# # Creating date objects using datetime module :
+# Creating date objects using datetime module :
 
-# from datetime import date,time,datetime
-# now = datetime.now()
-# print("Year:", now.year)
-# print("Month:", now.month)
-# print("Day:", now.day)
-# print("Weekday (0=Monday):", now.weekday())
-# print("ISO Weekday (1=Monday):", now.isoweekday())
+from datetime import date,time,datetime
+now = datetime.now()
+print("Year:", now.year)
+print("Month:", now.month)
+print("Day:", now.day)
+print("Weekday (0=Monday):", now.weekday())
+print("ISO Weekday (1=Monday):", now.isoweekday())
 
-# # Using datetime module to get current date and time and its components :  
+# Using datetime module to get current date and time and its components :  
 
-# from datetime import date,time ,datetime
-# now =datetime.now()
-# print(now)
-# print("year:",now.year)
-# print("month:",now.month)
-# print("day:",now.day)
-# print("hour:",now.hour)
-# print("minute:",now.minute)
-# print("second:",now.second)
-# print("microsecond:",now.microsecond)
+from datetime import date,time ,datetime
+now =datetime.now()
+print(now)
+print("year:",now.year)
+print("month:",now.month)
+print("day:",now.day)
+print("hour:",now.hour)
+print("minute:",now.minute)
+print("second:",now.second)
+print("microsecond:",now.microsecond)
 
-# # Formmatting date and times :
+# Formmatting date and times :
 
-# from datetime import date,time,datetime
-# now =datetime.now()
-# print(now)
-# print(now.strftime("%d/%m/%Y"))
-# print(now.strftime("%H:%M:%S"))
-# print(now.strftime("%I:%M:%S"))
-# print(now.strftime("%A, %d %b %Y %I:%M:%S %p"))
+from datetime import date,time,datetime
+now =datetime.now()
+print(now)
+print(now.strftime("%d/%m/%Y"))
+print(now.strftime("%H:%M:%S"))
+print(now.strftime("%I:%M:%S"))
+print(now.strftime("%A, %d %b %Y %I:%M:%S %p"))
 
-# # Performing date and time arithmetic using datetime module :
+# Performing date and time arithmetic using datetime module :
 
-# from datetime import date,time,datetime,timedelta
-# today = datetime.now()
-# now=datetime.now()
-# n=today-timedelta(days=5)
-# print(n)
-# h=now-timedelta(days=5)
-# print(n)
-# h=now-timedelta(hours=15)
-# print(h)
+from datetime import date,time,datetime,timedelta
+today = datetime.now()
+now=datetime.now()
+n=today-timedelta(days=5)
+print(n)
+h=now-timedelta(days=5)
+print(n)
+h=now-timedelta(hours=15)
+print(h)
 
-# # collections :
+# collections :
 
-# from collections import Counter,defaultdict,deque
-# n='Subhash is a good boy.he can\'t ride bike.'.split()
-# res=Counter(n)
-# print(res)
-# # 
-# from collections import Counter,defaultdict,deque
-# n=[9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9]
-# res=Counter(n)
-# print(res)
-# # 
-# from collections import Counter,defaultdict,deque
-# n=[9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9]
-# res=defaultdict(str)
-# for i in n:
-#     res[i]+=str(i)
-# print(res)
+from collections import Counter,defaultdict,deque
+n='Subhash is a good boy.he can\'t ride bike.'.split()
+res=Counter(n)
+print(res)
+# 
+from collections import Counter,defaultdict,deque
+n=[9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9]
+res=Counter(n)
+print(res)
+# 
+from collections import Counter,defaultdict,deque
+n=[9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9]
+res=defaultdict(str)
+for i in n:
+    res[i]+=str(i)
+print(res)
 
-# # Queue :
+# Queue :
 
-# from collections import Counter,defaultdict,deque
-# q=deque()
-# q.appendleft(10)
-# print(q)
-# q.appendleft(20)
-# print(q)
-# q.appendleft(30)
-# print(q)
-# q.pop()
-# print(q)
+from collections import Counter,defaultdict,deque
+q=deque()
+q.appendleft(10)
+print(q)
+q.appendleft(20)
+print(q)
+q.appendleft(30)
+print(q)
+q.pop()
+print(q)
 
 # snake and ladder game using deque :
 
