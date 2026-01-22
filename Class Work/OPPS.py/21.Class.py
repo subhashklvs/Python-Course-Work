@@ -23,3 +23,16 @@ class Filpkart:
         print(f"userinfo:\nName:{self.name}\npassword:{self.password}\nmobile no:{self.mobileno}")
 subhash=Filpkart()
 subhash.userinfo("sai123","sai@123",9876543213)
+
+# Using Construction :
+
+class Amazon:
+    def __init__(self, name, password, mobileno):
+        self.name = name
+        self.password = password
+        self.mobileno = mobileno
+    def userinfo(self):
+        print(f"User Info:\nName: {self.name}\nPassword: {self.password}\nMobile No: {self.mobileno}")
+subhash = Amazon("sai123", "sai@123", 9876543213)
+subhash.userinfo()
+
