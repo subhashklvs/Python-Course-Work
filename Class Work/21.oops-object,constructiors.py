@@ -1,9 +1,9 @@
 # class: A class is a blueprint or template to create objects.
 # It contains variables (data) and methods (functions).
 
-# 1. declaring a class:
+#1. declaring a class:"
 # class Student:
-    # stmts
+    # stmts 
     
 # 2. Write a Python program to demonstrate class variables using an Instagram class.
 
