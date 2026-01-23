@@ -43,7 +43,6 @@ class InstagramV1:
         print("you can post your images")
     def reel(self):
         print("you can upload your videos")
-        
 class InstagramV2(InstagramV1):
     def story(self):
         print("you can upload the 24 hrs story")
