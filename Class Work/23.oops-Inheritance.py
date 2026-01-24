@@ -95,7 +95,7 @@ class Autoscroll:
         print("now you can turn on the autoscroll")
 class summarize:
     def summargizemsg(self):
-        pritn("now the message can be summarized")
+        print("now the message can be summarized")
 class InstagramV4(InstagramV3,Autoscroll,summarize):
     def repost(self):
         print("you can repost the post/reels")
@@ -149,7 +149,7 @@ class Autoscroll:
         print("now you can turn on the autoscroll")
 class summarize:
     def summargizemsg(self):
-        pritn("now the message can be summarized")
+        print("now the message can be summarized")
 class summarizeV1(summarize):
     def algl(self):
         print("using Algo-1")
@@ -255,11 +255,18 @@ class whatsapp():
         print("upload a photo/video")
 class whatsappV1(whatsapp):
     def status(self):
-        super().status()
         print("upload a caption and emojis")
+class whatsappV2(whatsapp,whatsappV1):
+    def status(self):
+        whatsapp.ststus(self)
+        whatsappV1.status(self)
+        print("like option and reactions are updated")
 sai=whatsapp()
 print("sai")
 sai.status()
 subhash=whatsappV1()
 print("subhash")
+subhash.status()
+subhash=whatsappV2()
+print("venkata")
 subhash.status()
