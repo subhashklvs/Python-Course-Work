@@ -258,7 +258,7 @@ class whatsappV1(whatsapp):
         print("upload a caption and emojis")
 class whatsappV2(whatsapp,whatsappV1):
     def status(self):
-        whatsapp.ststus(self)
+        whatsapp.status(self)
         whatsappV1.status(self)
         print("like option and reactions are updated")
 sai=whatsapp()
