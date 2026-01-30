@@ -26,7 +26,7 @@ class JointAccount:
         print("[withdraw]:40k from both parties")
     def deposit(self):
         print("[deposit]:101 can be deposited")
-class salaryAccount(self):
+class salaryAccount():
     def withdraw(self):
         print("[withdraw]:max 1l")
     def deposit(self):
