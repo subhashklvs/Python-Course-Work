@@ -81,15 +81,3 @@ language = input()
 dev = Developer(name, salary, language)
 dev.display_details()
 
-#
-a=0
-b=1
-for i in range(8):
-    print(a,end=" ")
-    a,b=b,a+b
-
-a=5
-fact=1
-for i in range(1,n+1):
-    fact=fact*i
-    print(fact)
