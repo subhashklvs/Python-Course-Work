@@ -1,3 +1,9 @@
+# Abstraction means hiding internal implementation details and showing only the essential features to the user.
+# Simple Real-World Example
+# When you use an ATM:
+# You see: withdraw, deposit, balance
+# You don’t see: bank server logic
+
 from abc import ABC,abstractmethod
 class BankAccount:
     @abstractmethod
