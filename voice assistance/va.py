@@ -1,4 +1,4 @@
-#pip install pyttsx3 SpeechRecognition
+# pip install pyttsx3 SpeechRecognition
 import speech_recognition as sr
 import pyttsx3
 
